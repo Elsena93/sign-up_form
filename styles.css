@@ -21,6 +21,7 @@ body {
 
 .left {
     max-width: 33%;
+    min-width: 33%;
     background-image: url("./assets/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -50,4 +51,11 @@ body {
     font-family: NorseBold;
     color: white;
     font-size: 600%;
+}
+
+ol {
+    list-style: none;
+    
+    display: flex;
+    flex-direction: column;
 }
